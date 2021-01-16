@@ -21,13 +21,12 @@ sudo ./tftpd start
 echo "CONFIGURING SERVER..."
 echo "###########################......"
 echo "############............."
-exit
 
-sudo cp -R /home/tc/nitip-sebentar/asset/s /mnt/sda1/wwwsite
-cp /home/tc/nitip-sebentar/index.html /mnt/sda1/wwwsite
+sudo cp -R /home/tc/nitip-sebentar/assets /mnt/sda1/wwwsite
+sudo cp /home/tc/nitip-sebentar/index.html /mnt/sda1/wwwsite
 
-cp /mnt/sda1/wwwsite/index.html /usr/local/httpd/bin/index.html
-cp -R /mnt/sda1/wwwsite/assets /usr/local/httpd/bin
+sudo cp /mnt/sda1/wwwsite/index.html /usr/local/httpd/bin/index.html
+sudo cp -R /mnt/sda1/wwwsite/assets /usr/local/httpd/bin
 
 echo "Starting..."
 echo ".................."
