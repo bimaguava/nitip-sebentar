@@ -2,7 +2,7 @@
 
 echo "CLONING script!!!"
 echo "###### ......"
-git clone https://github.com/bimsky/nitip-sebentar
+#git clone https://github.com/bimsky/nitip-sebentar
 
 echo "PREPARING WORKSPACE ..."
 echo "########################.............."
